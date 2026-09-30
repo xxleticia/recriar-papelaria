@@ -1,0 +1,6 @@
+{
+  "name": "Recriar - Papelaria Personalizada",
+  "description": "Sistema completo de vitrine virtual e painel administrativo para papelaria personalizada, com precificação profissional, PDV, leitor de código de barras e gestão de pedidos.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

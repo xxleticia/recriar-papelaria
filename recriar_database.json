@@ -1,0 +1,1060 @@
+{
+  "settings": {
+    "name": "Recriar",
+    "tagline": "Papelaria Personalizada & Afeto em Cada Detalhe",
+    "whatsapp": "99981814313",
+    "email": "contato@recriarpapelaria.com.br",
+    "instagram": "@recriarpapelaria",
+    "address": "Ateliê Recriar - Entregas para todo o Brasil e retirada local",
+    "logoUrl": "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=300&q=80",
+    "banners": [
+      {
+        "id": "banner-1",
+        "title": "Papelaria que Inspira Histórias",
+        "subtitle": "Planners, cadernos, caixas cartonadas e lembrancinhas feitas à mão com acabamento premium e foil dourado.",
+        "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1600&q=80",
+        "link": "#catalogo",
+        "badge": "Novidades 2026/2027",
+        "active": true
+      },
+      {
+        "id": "banner-2",
+        "title": "Celebrações & Momentos Únicos",
+        "subtitle": "Lembrancinhas e topos de bolo personalizados com acabamento impecável para tornar sua data inesquecível.",
+        "imageUrl": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1600&q=80",
+        "link": "#catalogo",
+        "badge": "Lembrancinhas Exclusivas",
+        "active": true
+      },
+      {
+        "id": "banner-3",
+        "title": "Embalagens & Caixas Cartonadas Luxo",
+        "subtitle": "Valorize seu produto ou presente com embalagens artesanais feitas sob medida com fitas e laços especiais.",
+        "imageUrl": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=1600&q=80",
+        "link": "#catalogo",
+        "badge": "Linha Premium",
+        "active": true
+      }
+    ],
+    "colors": {
+      "primary": "#5C4033",
+      "secondary": "#B08968",
+      "accent": "#C49A45",
+      "beige": "#F5EBDD",
+      "cream": "#FFFDF9"
+    },
+    "announcementText": "✨ Peças 100% personalizadas feitas com afeto! Compre online ou peça atendimento exclusivo pelo WhatsApp (99) 98181-4313.",
+    "productionNotice": "Prazo médio de confecção artesanal: 5 a 10 dias úteis após aprovação da arte.",
+    "fiscalSettings": {
+      "enabled": true,
+      "provider": "Focus NFe",
+      "environment": "homologacao",
+      "defaultDocType": "NFC-e",
+      "cnpj": "12.345.678/0001-90",
+      "razaoSocial": "Recriar Papelaria e Encadernacao Ltda",
+      "nomeFantasia": "Recriar Papelaria Personalizada",
+      "inscricaoEstadual": "123456789",
+      "inscricaoMunicipal": "98765",
+      "regimeTributario": "Simples Nacional",
+      "apiKey": "",
+      "certificateConfigured": false
+    },
+    "birthdayMessageTemplate": "Olá, {primeiro_nome}! Hoje é um dia especial. Nós da Papelaria Recriar desejamos um feliz aniversário com muita saúde e realizações! Preparamos um presente especial para você: o cupom {codigo_cupom}, com 15% de desconto válido até {data_validade}, para você comemorar conosco.",
+    "birthdayCouponDiscountPercent": 15,
+    "birthdayCouponDaysValid": 30
+  },
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Agendas & Planners",
+      "slug": "agendas-planners",
+      "description": "Organização com sofisticação, capas duras e wire-o metálico.",
+      "icon": "BookOpen",
+      "active": true,
+      "order": 1
+    },
+    {
+      "id": "cat-2",
+      "name": "Lembrancinhas Personalizadas",
+      "slug": "lembrancinhas",
+      "description": "Bloquinhos, kits com canetas e mimos para eventos inesquecíveis.",
+      "icon": "Gift",
+      "active": true,
+      "order": 2
+    },
+    {
+      "id": "cat-3",
+      "name": "Caixas Cartonadas & Luxo",
+      "slug": "caixas-luxo",
+      "description": "Caixas rígidas artesanais para padrinhos, joias e presentes.",
+      "icon": "Package",
+      "active": true,
+      "order": 3
+    },
+    {
+      "id": "cat-4",
+      "name": "Cadernos & Bloquinhos",
+      "slug": "cadernos-bloquinhos",
+      "description": "Cadernos com pauta, pontilhados e blocos de anotações.",
+      "icon": "Notebook",
+      "active": true,
+      "order": 4
+    },
+    {
+      "id": "cat-5",
+      "name": "Festas & Papelaria Criativa",
+      "slug": "festas-criativa",
+      "description": "Topos de bolo 3D, forminhas especiais e convites artesanais.",
+      "icon": "Sparkles",
+      "active": true,
+      "order": 5
+    },
+    {
+      "id": "cat-6",
+      "name": "Identidade Visual & Tags",
+      "slug": "identidade-tags",
+      "description": "Tags com ilhós dourado, cartões de agradecimento e lacres.",
+      "icon": "Tag",
+      "active": true,
+      "order": 6
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Planner Anual Permanente Capa Dura Luxo",
+      "sku": "REC-PLN-01",
+      "barcode": "7891000100018",
+      "categoryId": "cat-1",
+      "description": "Planner permanente confeccionado artesanalmente com capa dura revestida, detalhes em laminação fosca ou soft touch, cantoneiras douradas metálicas, elástico de fechamento e miolo completo para metas, finanças e rotina.",
+      "price": 89.9,
+      "promotionalPrice": 79.9,
+      "minQuantity": 1,
+      "estimatedDays": 7,
+      "photos": [
+        "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1506784365847-bbad939e9335?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isNew": true,
+      "isFeatured": true,
+      "onSale": true,
+      "active": true,
+      "stock": null,
+      "customizationConfig": {
+        "format": {
+          "enabled": true,
+          "label": "Formato / Tamanho",
+          "options": [
+            {
+              "id": "f-a5",
+              "name": "A5 (15x21 cm)",
+              "priceModifier": 0
+            },
+            {
+              "id": "f-colegial",
+              "name": "Colegial (18x24 cm)",
+              "priceModifier": 15
+            },
+            {
+              "id": "f-pocket",
+              "name": "Pocket / Compacto (12x17 cm)",
+              "priceModifier": -5
+            }
+          ]
+        },
+        "paperType": {
+          "enabled": true,
+          "label": "Gramatura do Papel do Miolo",
+          "options": [
+            {
+              "id": "p-90g",
+              "name": "Offset 90g (Ideal para caneta gel)",
+              "priceModifier": 0
+            },
+            {
+              "id": "p-120g",
+              "name": "Offset 120g (Ultra encorpado, sem passar tinta)",
+              "priceModifier": 12
+            },
+            {
+              "id": "p-polen",
+              "name": "Papel Pólen Natural 90g (Tonalidade amarelada relaxante)",
+              "priceModifier": 8
+            }
+          ]
+        },
+        "finish": {
+          "enabled": true,
+          "label": "Acabamento do Wire-o",
+          "options": [
+            {
+              "id": "w-ouro",
+              "name": "Wire-o Metálico Dourado / Ouro Nobre",
+              "priceModifier": 0
+            },
+            {
+              "id": "w-bronze",
+              "name": "Wire-o Bronze Vintage",
+              "priceModifier": 0
+            },
+            {
+              "id": "w-branco",
+              "name": "Wire-o Branco Tradicional",
+              "priceModifier": 0
+            }
+          ]
+        },
+        "lamination": {
+          "enabled": true,
+          "label": "Laminação da Capa",
+          "options": [
+            {
+              "id": "lam-fosco",
+              "name": "Fosca Aveludada Clássica",
+              "priceModifier": 0
+            },
+            {
+              "id": "lam-brilho",
+              "name": "Brilho Cristal",
+              "priceModifier": 0
+            },
+            {
+              "id": "lam-holografica",
+              "name": "Holográfica Estrelinhas",
+              "priceModifier": 6
+            },
+            {
+              "id": "lam-softtouch",
+              "name": "Soft Touch Super Aveludada",
+              "priceModifier": 8
+            }
+          ]
+        },
+        "accessories": {
+          "enabled": true,
+          "label": "Adicionais & Acessórios",
+          "options": [
+            {
+              "id": "acc-none",
+              "name": "Padrão com Elástico",
+              "priceModifier": 0
+            },
+            {
+              "id": "acc-cantoneiras",
+              "name": "Cantoneiras Metálicas Douradas (+R$ 7,00)",
+              "priceModifier": 7
+            },
+            {
+              "id": "acc-kit",
+              "name": "Cantoneiras + Pingente Tassel de Seda (+R$ 14,00)",
+              "priceModifier": 14
+            }
+          ]
+        },
+        "theme": {
+          "enabled": true,
+          "label": "Paleta / Tema Floral ou Minimalista",
+          "options": [
+            {
+              "id": "th-botanico",
+              "name": "Botânico Dourado & Tons Terrosos"
+            },
+            {
+              "id": "th-minimal",
+              "name": "Minimalista Clássico Monocromático"
+            },
+            {
+              "id": "th-aquarela",
+              "name": "Aquarela Flores Secas"
+            }
+          ]
+        },
+        "allowCustomText": true,
+        "customTextLabel": "Nome completo ou Frase inspiradora para gravar na capa",
+        "allowImageUpload": true,
+        "allowNotes": true
+      },
+      "priceTiers": [
+        {
+          "minQty": 1,
+          "unitPrice": 79.9
+        },
+        {
+          "minQty": 5,
+          "unitPrice": 72
+        },
+        {
+          "minQty": 10,
+          "unitPrice": 65
+        },
+        {
+          "minQty": 25,
+          "unitPrice": 59
+        }
+      ],
+      "costComposition": {
+        "custoMateriais": 28.5,
+        "perdasPercent": 8,
+        "horasTrabalhadas": 0.8,
+        "valorHora": 30,
+        "impressao": 8,
+        "acabamentos": 4.5,
+        "embalagem": 3.5,
+        "terceirizacao": 0,
+        "freteRateado": 2,
+        "custosFixosRateados": 4,
+        "margemLucroPercent": 40,
+        "taxasPercentTotais": 10,
+        "precoFinalSugerido": 79.9
+      },
+      "createdAt": "2026-01-10T10:00:00Z",
+      "updatedAt": "2026-09-20T14:30:00Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Kit 20 Bloquinhos de Anotações Lembrancinha com Lápis",
+      "sku": "REC-BLQ-20",
+      "barcode": "7891000100025",
+      "categoryId": "cat-2",
+      "description": "Lembrancinhas afetivas para aniversários, maternidade ou eventos corporativos. Contém bloquinho capa dura personalizada 7x10cm com 50 folhas picotadas, mini lápis personalizado e embalagem com laço de cetim.",
+      "price": 139,
+      "promotionalPrice": 125,
+      "minQuantity": 1,
+      "estimatedDays": 5,
+      "photos": [
+        "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isNew": false,
+      "isFeatured": true,
+      "onSale": true,
+      "active": true,
+      "stock": null,
+      "customizationConfig": {
+        "format": {
+          "enabled": true,
+          "label": "Tamanho do Bloquinho",
+          "options": [
+            {
+              "id": "f-7x10",
+              "name": "7x10 cm (Compacto de bolsa)",
+              "priceModifier": 0
+            },
+            {
+              "id": "f-10x15",
+              "name": "10x15 cm (Tamanho foto)",
+              "priceModifier": 30
+            }
+          ]
+        },
+        "lamination": {
+          "enabled": true,
+          "label": "Acabamento da Capa",
+          "options": [
+            {
+              "id": "lam-brilho",
+              "name": "Brilho Intenso",
+              "priceModifier": 0
+            },
+            {
+              "id": "lam-fosco",
+              "name": "Fosco Elegante",
+              "priceModifier": 0
+            },
+            {
+              "id": "lam-holo",
+              "name": "Holográfico Confete",
+              "priceModifier": 15
+            }
+          ]
+        },
+        "accessories": {
+          "enabled": true,
+          "label": "Embalagem e Laço",
+          "options": [
+            {
+              "id": "acc-laco-cetim",
+              "name": "Embalagem Celofane + Laço Chanel em Cetim",
+              "priceModifier": 0
+            },
+            {
+              "id": "acc-organza",
+              "name": "Saquinho de Organza Nobre (+R$ 20,00)",
+              "priceModifier": 20
+            }
+          ]
+        },
+        "allowCustomText": true,
+        "customTextLabel": "Nome da criança, evento ou data comemorativa",
+        "allowImageUpload": true,
+        "allowNotes": true
+      },
+      "priceTiers": [
+        {
+          "minQty": 1,
+          "unitPrice": 125
+        },
+        {
+          "minQty": 2,
+          "unitPrice": 115
+        },
+        {
+          "minQty": 5,
+          "unitPrice": 105
+        }
+      ],
+      "createdAt": "2026-02-15T11:00:00Z",
+      "updatedAt": "2026-09-18T09:15:00Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "Caixa Cartonada Rígida para Padrinhos com Fita",
+      "sku": "REC-CXA-01",
+      "barcode": "7891000100032",
+      "categoryId": "cat-3",
+      "description": "Caixa artesanal rígida feita em papelão holler 2.0mm forrado em papel perolado ou kraft especial. Tampa estilo livro ou sapato com fechamento magnético ou laço de fita de gorgurão/cetim.",
+      "price": 49.9,
+      "promotionalPrice": null,
+      "minQuantity": 2,
+      "estimatedDays": 8,
+      "photos": [
+        "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isNew": true,
+      "isFeatured": true,
+      "onSale": false,
+      "active": true,
+      "stock": null,
+      "customizationConfig": {
+        "format": {
+          "enabled": true,
+          "label": "Dimensões da Caixa",
+          "options": [
+            {
+              "id": "c-15x15",
+              "name": "15x15x6 cm (Doces / Bijuterias)",
+              "priceModifier": 0
+            },
+            {
+              "id": "c-20x20",
+              "name": "20x20x8 cm (Mini espumante + taça)",
+              "priceModifier": 18
+            },
+            {
+              "id": "c-25x20",
+              "name": "25x20x8 cm (Convite completo padrinhos)",
+              "priceModifier": 25
+            }
+          ]
+        },
+        "paperType": {
+          "enabled": true,
+          "label": "Revestimento Externo",
+          "options": [
+            {
+              "id": "p-perolado",
+              "name": "Papel Perolado Marfim Nobre",
+              "priceModifier": 0
+            },
+            {
+              "id": "p-kraft",
+              "name": "Papel Kraft Rústico Chique",
+              "priceModifier": -3
+            },
+            {
+              "id": "p-linho",
+              "name": "Papel Textura Linho Branco",
+              "priceModifier": 5
+            }
+          ]
+        },
+        "accessories": {
+          "enabled": true,
+          "label": "Fechamento e Detalhes",
+          "options": [
+            {
+              "id": "fech-fita",
+              "name": "Fita de Cetim Larga com Laço Chanel",
+              "priceModifier": 0
+            },
+            {
+              "id": "fech-ima",
+              "name": "Fechamento Oculto Magnético (+R$ 10,00)",
+              "priceModifier": 10
+            },
+            {
+              "id": "fech-hotstamping",
+              "name": "Nomes dos Padrinhos em Foil Ouro na Tampa (+R$ 12,00)",
+              "priceModifier": 12
+            }
+          ]
+        },
+        "allowCustomText": true,
+        "customTextLabel": "Mensagem interna da tampa e nomes a personalizar",
+        "allowImageUpload": true,
+        "allowNotes": true
+      },
+      "priceTiers": [
+        {
+          "minQty": 2,
+          "unitPrice": 49.9
+        },
+        {
+          "minQty": 6,
+          "unitPrice": 44.9
+        },
+        {
+          "minQty": 12,
+          "unitPrice": 39.9
+        }
+      ],
+      "createdAt": "2026-03-01T15:20:00Z",
+      "updatedAt": "2026-09-25T16:40:00Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "Caderno Universitário Pautado com Nome Personalizado",
+      "sku": "REC-CAD-01",
+      "barcode": "7891000100049",
+      "categoryId": "cat-4",
+      "description": "Caderno universitário com 100 ou 200 folhas pautadas em papel offset 75g ou 90g. Capa dura encadernada com laminação protetora, bolso plástico interno e cartela de adesivos funcionais.",
+      "price": 54,
+      "promotionalPrice": 48,
+      "minQuantity": 1,
+      "estimatedDays": 5,
+      "photos": [
+        "https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isNew": false,
+      "isFeatured": false,
+      "onSale": true,
+      "active": true,
+      "stock": null,
+      "customizationConfig": {
+        "format": {
+          "enabled": true,
+          "label": "Quantidade de Matérias / Folhas",
+          "options": [
+            {
+              "id": "mat-1",
+              "name": "1 Matéria - 100 Folhas (200 págs)",
+              "priceModifier": 0
+            },
+            {
+              "id": "mat-10",
+              "name": "10 Matérias - 200 Folhas com Divisórias",
+              "priceModifier": 22
+            }
+          ]
+        },
+        "lamination": {
+          "enabled": true,
+          "label": "Laminação da Capa",
+          "options": [
+            {
+              "id": "l-fosco",
+              "name": "Fosca Soft",
+              "priceModifier": 0
+            },
+            {
+              "id": "l-holografica",
+              "name": "Holográfica Caquinhos",
+              "priceModifier": 5
+            }
+          ]
+        },
+        "allowCustomText": true,
+        "customTextLabel": "Nome completo ou Curso para estampar na capa",
+        "allowImageUpload": true,
+        "allowNotes": true
+      },
+      "createdAt": "2026-04-10T08:00:00Z",
+      "updatedAt": "2026-09-10T11:00:00Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "Topo de Bolo Shaker 3D em Camadas Luxo",
+      "sku": "REC-TPB-01",
+      "barcode": "7891000100056",
+      "categoryId": "cat-5",
+      "description": "Topo de bolo de alta definição em camadas tridimensionais de papéis especiais (lamicote dourado, glitter e color plus 180g) com efeito shaker translúcido repleto de miçangas e lantejoulas.",
+      "price": 38,
+      "promotionalPrice": null,
+      "minQuantity": 1,
+      "estimatedDays": 3,
+      "photos": [
+        "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isNew": true,
+      "isFeatured": true,
+      "onSale": false,
+      "active": true,
+      "stock": null,
+      "customizationConfig": {
+        "format": {
+          "enabled": true,
+          "label": "Diâmetro Estimado do Bolo",
+          "options": [
+            {
+              "id": "b-15",
+              "name": "Bolo 15 a 18 cm (Bento cake ou tradicional)",
+              "priceModifier": 0
+            },
+            {
+              "id": "b-25",
+              "name": "Bolo 20 a 25 cm (Festa média/grande)",
+              "priceModifier": 8
+            }
+          ]
+        },
+        "specialCut": {
+          "enabled": true,
+          "label": "Camadas e Efeito",
+          "options": [
+            {
+              "id": "ef-shaker",
+              "name": "Camadas 3D + Visor Shaker com Glitter",
+              "priceModifier": 0
+            },
+            {
+              "id": "ef-led",
+              "name": "Camadas 3D + Ponto de Luz LED micro (+R$ 15,00)",
+              "priceModifier": 15
+            }
+          ]
+        },
+        "allowCustomText": true,
+        "customTextLabel": "Nome do aniversariante e idade",
+        "theme": {
+          "enabled": true,
+          "label": "Tema da Comemoração",
+          "options": [
+            {
+              "id": "t-jardim",
+              "name": "Jardim Encantado / Borboletas"
+            },
+            {
+              "id": "t-elegante",
+              "name": "Dourado Elegante & Flores"
+            },
+            {
+              "id": "t-infantil",
+              "name": "Personagens Infantis (Personalizado)"
+            }
+          ]
+        },
+        "allowImageUpload": true,
+        "allowNotes": true
+      },
+      "createdAt": "2026-05-12T13:00:00Z",
+      "updatedAt": "2026-09-22T17:00:00Z"
+    },
+    {
+      "id": "prod-6",
+      "name": "Cento de Tags Personalizadas com Ilhós Dourado",
+      "sku": "REC-TAG-100",
+      "barcode": "7891000100063",
+      "categoryId": "cat-6",
+      "description": "100 unidades de tags elegantes para embalagens e presentes com corte especial, papel color plus ou kraft 240g, impressão laser nítida e ilhós metálico dourado que não enferruja.",
+      "price": 65,
+      "promotionalPrice": 59,
+      "minQuantity": 1,
+      "estimatedDays": 4,
+      "photos": [
+        "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=800&q=80"
+      ],
+      "isNew": false,
+      "isFeatured": false,
+      "onSale": true,
+      "active": true,
+      "stock": null,
+      "customizationConfig": {
+        "format": {
+          "enabled": true,
+          "label": "Formato da Tag",
+          "options": [
+            {
+              "id": "t-redonda",
+              "name": "Redonda 5 cm",
+              "priceModifier": 0
+            },
+            {
+              "id": "t-bandeirinha",
+              "name": "Bandeirinha / Escalope 5x8 cm",
+              "priceModifier": 5
+            }
+          ]
+        },
+        "paperType": {
+          "enabled": true,
+          "label": "Tipo de Papel",
+          "options": [
+            {
+              "id": "p-kraft-240",
+              "name": "Kraft Rústico 240g",
+              "priceModifier": 0
+            },
+            {
+              "id": "p-offset-240",
+              "name": "Offset Alvo 240g",
+              "priceModifier": 0
+            },
+            {
+              "id": "p-perola-250",
+              "name": "Papel Perolado Nácar 250g",
+              "priceModifier": 15
+            }
+          ]
+        },
+        "allowCustomText": true,
+        "customTextLabel": "Frase, Instagram @ e WhatsApp da sua marca",
+        "allowImageUpload": true,
+        "allowNotes": true
+      },
+      "createdAt": "2026-06-01T10:00:00Z",
+      "updatedAt": "2026-09-12T14:00:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "REC-2026-001",
+      "date": "2026-09-28T14:32:00Z",
+      "status": "Em produção",
+      "isOpenSale": false,
+      "client": {
+        "id": "cli-1",
+        "name": "Juliana Mendes Silveira",
+        "cpf": "12345678901",
+        "birthDate": "15/10/1992",
+        "email": "juliana.mendes@email.com",
+        "whatsapp": "99981814313",
+        "address": {
+          "street": "Rua das Camélias",
+          "number": "142",
+          "neighborhood": "Jardins",
+          "city": "São Luís",
+          "state": "MA",
+          "zipCode": "65075-000"
+        },
+        "consentTerms": true,
+        "consentWhatsapp": true
+      },
+      "items": [
+        {
+          "id": "item-1",
+          "productId": "prod-1",
+          "productName": "Planner Anual Permanente Capa Dura Luxo",
+          "barcode": "7891000100018",
+          "photo": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1,
+          "unitPrice": 79.9,
+          "subtotal": 79.9,
+          "customizations": {
+            "format": "A5 (15x21 cm)",
+            "paperType": "Offset 120g (Ultra encorpado)",
+            "finish": "Wire-o Metálico Dourado / Ouro Nobre",
+            "lamination": "Fosca Aveludada Clássica",
+            "accessories": "Cantoneiras Metálicas Douradas (+R$ 7,00)",
+            "theme": "Botânico Dourado & Tons Terrosos",
+            "customText": "Juliana Mendes - Minha Jornada 2026/2027",
+            "notes": "Por favor embrulhar com muito carinho para presente!"
+          },
+          "additionalCost": 19
+        }
+      ],
+      "shippingMethod": "retirada",
+      "shippingFee": 0,
+      "paymentMethod": "PIX",
+      "paymentStatus": "Confirmado",
+      "couponCode": "BEMVINDO10",
+      "discountValue": 9.89,
+      "subtotal": 98.9,
+      "total": 89.01,
+      "internalNotes": "Cliente retirará no ateliê na sexta-feira à tarde.",
+      "statusHistory": [
+        {
+          "status": "Novo",
+          "timestamp": "2026-09-28T14:32:00Z",
+          "note": "Pedido realizado pelo cliente na vitrine"
+        },
+        {
+          "status": "Pagamento confirmado",
+          "timestamp": "2026-09-28T14:35:10Z",
+          "note": "PIX recebido e conferido"
+        },
+        {
+          "status": "Arte aprovada",
+          "timestamp": "2026-09-28T16:00:00Z",
+          "note": "Cliente aprovou capa pelo WhatsApp"
+        },
+        {
+          "status": "Em produção",
+          "timestamp": "2026-09-29T09:00:00Z",
+          "note": "Montagem do miolo e laminação"
+        }
+      ],
+      "origin": "vitrine",
+      "fiscalDocument": {
+        "status": "Emitida",
+        "type": "NFC-e",
+        "number": "000042",
+        "key": "21260912345678000190650010000000421234567890",
+        "protocol": "121260000492812",
+        "issuedAt": "2026-09-28T14:40:00Z"
+      },
+      "createdAt": "2026-09-28T14:32:00Z",
+      "updatedAt": "2026-09-29T09:00:00Z"
+    },
+    {
+      "id": "REC-2026-002",
+      "date": "2026-09-29T10:15:00Z",
+      "status": "Novo",
+      "isOpenSale": false,
+      "client": {
+        "id": "cli-2",
+        "name": "Carolina Almeida Santos",
+        "cpf": "98765432100",
+        "birthDate": "29/09/1995",
+        "email": "carol.almeida@email.com",
+        "whatsapp": "99988776655",
+        "address": {
+          "street": "Av. Litorânea",
+          "number": "800",
+          "complement": "Apto 402",
+          "neighborhood": "Calhau",
+          "city": "São Luís",
+          "state": "MA",
+          "zipCode": "65076-170"
+        },
+        "consentTerms": true,
+        "consentWhatsapp": true
+      },
+      "items": [
+        {
+          "id": "item-2",
+          "productId": "prod-2",
+          "productName": "Kit 20 Bloquinhos de Anotações Lembrancinha com Lápis",
+          "barcode": "7891000100025",
+          "photo": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1,
+          "unitPrice": 125,
+          "subtotal": 125,
+          "customizations": {
+            "format": "7x10 cm (Compacto de bolsa)",
+            "lamination": "Brilho Intenso",
+            "accessories": "Embalagem Celofane + Laço Chanel em Cetim",
+            "customText": "Chá de Bebê do Theo - 2026"
+          }
+        }
+      ],
+      "shippingMethod": "entrega",
+      "shippingFee": 15,
+      "paymentMethod": "PIX",
+      "paymentStatus": "Pendente",
+      "discountValue": 0,
+      "subtotal": 125,
+      "total": 140,
+      "internalNotes": "Aguardando comprovante do PIX pelo WhatsApp.",
+      "statusHistory": [
+        {
+          "status": "Novo",
+          "timestamp": "2026-09-29T10:15:00Z",
+          "note": "Pedido criado na vitrine"
+        }
+      ],
+      "origin": "vitrine",
+      "createdAt": "2026-09-29T10:15:00Z",
+      "updatedAt": "2026-09-29T10:15:00Z"
+    },
+    {
+      "id": "REC-2026-003",
+      "date": "2026-09-29T11:45:00Z",
+      "status": "Aguardando pagamento",
+      "isOpenSale": true,
+      "client": {
+        "id": "cli-3",
+        "name": "Mariana Rocha Ribeiro",
+        "cpf": "55544433322",
+        "birthDate": "30/09/1988",
+        "email": "mariana.rocha@email.com",
+        "whatsapp": "98991234567",
+        "address": {
+          "street": "Rua do Sol",
+          "number": "55",
+          "neighborhood": "Centro",
+          "city": "São Luís",
+          "state": "MA",
+          "zipCode": "65020-560"
+        },
+        "consentTerms": true,
+        "consentWhatsapp": true
+      },
+      "items": [
+        {
+          "id": "item-3",
+          "productId": "prod-5",
+          "productName": "Topo de Bolo Shaker 3D em Camadas Luxo",
+          "barcode": "7891000100056",
+          "photo": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=400&q=80",
+          "quantity": 1,
+          "unitPrice": 38,
+          "subtotal": 38,
+          "customizations": {
+            "format": "Bolo 15 a 18 cm",
+            "specialCut": "Camadas 3D + Visor Shaker com Glitter",
+            "theme": "Dourado Elegante & Flores",
+            "customText": "Mariana 38 Anos"
+          }
+        }
+      ],
+      "shippingMethod": "retirada",
+      "shippingFee": 0,
+      "paymentMethod": "Pendente",
+      "paymentStatus": "Pendente",
+      "discountValue": 0,
+      "subtotal": 38,
+      "total": 38,
+      "internalNotes": "Venda aberta no balcão pelo administrador. Cliente pediu para aprovar prévia da arte antes de pagar.",
+      "statusHistory": [
+        {
+          "status": "Novo",
+          "timestamp": "2026-09-29T11:45:00Z",
+          "note": "Venda em aberto iniciada no PDV"
+        },
+        {
+          "status": "Aguardando pagamento",
+          "timestamp": "2026-09-29T11:45:00Z",
+          "note": "Orçamento balcão"
+        }
+      ],
+      "origin": "pdv_admin",
+      "createdAt": "2026-09-29T11:45:00Z",
+      "updatedAt": "2026-09-29T11:45:00Z"
+    }
+  ],
+  "clients": [
+    {
+      "id": "cli-1",
+      "name": "Juliana Mendes Silveira",
+      "cpf": "12345678901",
+      "birthDate": "15/10/1992",
+      "email": "juliana.mendes@email.com",
+      "whatsapp": "99981814313",
+      "address": {
+        "street": "Rua das Camélias",
+        "number": "142",
+        "neighborhood": "Jardins",
+        "city": "São Luís",
+        "state": "MA",
+        "zipCode": "65075-000"
+      },
+      "consentTerms": true,
+      "consentWhatsapp": true
+    },
+    {
+      "id": "cli-2",
+      "name": "Carolina Almeida Santos",
+      "cpf": "98765432100",
+      "birthDate": "29/09/1995",
+      "email": "carol.almeida@email.com",
+      "whatsapp": "99988776655",
+      "address": {
+        "street": "Av. Litorânea",
+        "number": "800",
+        "complement": "Apto 402",
+        "neighborhood": "Calhau",
+        "city": "São Luís",
+        "state": "MA",
+        "zipCode": "65076-170"
+      },
+      "consentTerms": true,
+      "consentWhatsapp": true
+    },
+    {
+      "id": "cli-3",
+      "name": "Mariana Rocha Ribeiro",
+      "cpf": "55544433322",
+      "birthDate": "30/09/1988",
+      "email": "mariana.rocha@email.com",
+      "whatsapp": "98991234567",
+      "address": {
+        "street": "Rua do Sol",
+        "number": "55",
+        "neighborhood": "Centro",
+        "city": "São Luís",
+        "state": "MA",
+        "zipCode": "65020-560"
+      },
+      "consentTerms": true,
+      "consentWhatsapp": true
+    }
+  ],
+  "coupons": [
+    {
+      "id": "cup-1",
+      "code": "BEMVINDO10",
+      "description": "Desconto de boas-vindas na primeira compra",
+      "discountType": "percent",
+      "discountValue": 10,
+      "minOrderValue": 50,
+      "maxUses": 100,
+      "usedCount": 14,
+      "validFrom": "2026-01-01",
+      "validTo": "2026-12-31",
+      "active": true
+    },
+    {
+      "id": "cup-2",
+      "code": "RECRIAR15",
+      "description": "15% de desconto em pedidos acima de R$ 120,00",
+      "discountType": "percent",
+      "discountValue": 15,
+      "minOrderValue": 120,
+      "maxUses": 50,
+      "usedCount": 8,
+      "validFrom": "2026-01-01",
+      "validTo": "2026-12-31",
+      "active": true
+    },
+    {
+      "id": "cup-3",
+      "code": "NIVERESPECIAL",
+      "description": "Cupom automático de aniversário para clientes especiais",
+      "discountType": "percent",
+      "discountValue": 15,
+      "minOrderValue": 40,
+      "maxUses": 1000,
+      "usedCount": 22,
+      "validFrom": "2026-01-01",
+      "validTo": "2026-12-31",
+      "active": true,
+      "isBirthdayCoupon": true
+    }
+  ],
+  "adminAuth": {
+    "username": "Recriar",
+    "salt": "8f0b75088a2db47f83dbdca7f86ae699",
+    "passwordHash": "cf40333a28e9d1bea5404b570146b09edb5ee3539c9b4755b66ce3352d627ea9428f30a2e916a81b1c990dd9eec7ab6ec57e19faf0bd6c1b4874fb2f2f7a6d70",
+    "isTemporaryPassword": true,
+    "failedAttempts": 1
+  },
+  "auditLogs": [
+    {
+      "id": "log-1790736179043-lyq7c",
+      "action": "LOGIN_FALHOU",
+      "entity": "Autenticação",
+      "details": "Tentativa com usuário inválido: \"test\"",
+      "timestamp": "2026-09-30T02:42:59.043Z"
+    },
+    {
+      "id": "log-init",
+      "action": "SISTEMA_INICIADO",
+      "entity": "Sistema",
+      "details": "Banco de dados inicializado com sucesso para Papelaria Recriar.",
+      "timestamp": "2026-09-30T02:36:24.352Z"
+    }
+  ]
+}
