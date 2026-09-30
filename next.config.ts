@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: 'standalone',
   outputFileTracingRoot: path.resolve(__dirname),
+  distDir: process.env.NODE_ENV === 'development' ? '.next-dev' : '.next',
   eslint: {
     ignoreDuringBuilds: true,
   },
