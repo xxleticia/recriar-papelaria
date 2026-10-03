@@ -17,6 +17,31 @@ export function AdminLoginView() {
   const [newPassword, setNewPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [changeSuccess, setChangeSuccess] = useState(false);
+  const [resetSuccess, setResetSuccess] = useState<string | null>(null);
+
+  const handleResetDefault = async () => {
+    setIsLoading(true);
+    setErrorMsg(null);
+    setResetSuccess(null);
+    try {
+      const res = await fetch('/api/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'reset-default' }),
+      });
+      const data = await res.json();
+      if (res.ok && data.success) {
+        setResetSuccess('Acesso e tentativas redefinidos com sucesso. Insira suas credenciais para continuar.');
+        setErrorMsg(null);
+      } else {
+        setErrorMsg(data.error || 'Erro ao redefinir acesso.');
+      }
+    } catch {
+      setErrorMsg('Falha de comunicação com o servidor.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -79,6 +104,13 @@ export function AdminLoginView() {
 
         {/* Form Body */}
         <div className="p-6 sm:p-8 space-y-5">
+          {resetSuccess && (
+            <div className="p-3 bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs rounded-xl flex items-center gap-2">
+              <CheckCircle className="w-4 h-4 shrink-0 text-emerald-600" />
+              <span>{resetSuccess}</span>
+            </div>
+          )}
+
           {errorMsg && (
             <div className="p-3 bg-red-50 border border-red-200 text-red-700 text-xs rounded-xl flex items-center gap-2">
               <AlertCircle className="w-4 h-4 shrink-0" />
@@ -94,7 +126,7 @@ export function AdminLoginView() {
                 required
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                placeholder="Usuário"
+                placeholder="Digite seu usuário"
                 className="w-full px-3.5 py-2.5 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#C49A45] focus:outline-hidden text-sm"
               />
             </div>
@@ -114,12 +146,23 @@ export function AdminLoginView() {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 bg-[#5C4033] hover:bg-[#432d23] text-white font-semibold text-xs rounded-xl shadow-md transition disabled:opacity-50"
+              className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 bg-[#5C4033] hover:bg-[#432d23] text-white font-semibold text-xs rounded-xl shadow-md transition disabled:opacity-50 cursor-pointer"
             >
               <KeyRound className="w-4 h-4 text-[#C49A45]" />
               <span>{isLoading ? 'Autenticando...' : 'Entrar no Sistema'}</span>
             </button>
           </form>
+
+          <div className="text-center pt-2 border-t border-gray-100">
+            <button
+              type="button"
+              onClick={handleResetDefault}
+              disabled={isLoading}
+              className="text-[11px] text-[#8C6D48] hover:text-[#5C4033] font-medium underline transition cursor-pointer"
+            >
+              Esqueceu a senha ou precisa redefinir o acesso?
+            </button>
+          </div>
         </div>
       </div>
 

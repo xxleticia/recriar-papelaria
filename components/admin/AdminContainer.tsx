@@ -1,19 +1,54 @@
 'use client';
 
 import React, { useState } from 'react';
+import dynamic from 'next/dynamic';
 import { useStore } from '@/lib/store-context';
 import { AdminLoginView } from './AdminLoginView';
-import { AdminDashboardOverview } from './AdminDashboardOverview';
-import { PdvSalesView } from './PdvSalesView';
-import { OrdersManagerView } from './OrdersManagerView';
-import { ProductsManagerView } from './ProductsManagerView';
-import { CategoriesManagerView } from './CategoriesManagerView';
-import { ClientsManagerView } from './ClientsManagerView';
-import { PricingCalculatorView } from './PricingCalculatorView';
-import { CouponsManagerView } from './CouponsManagerView';
-import { BirthdayMessagesView } from './BirthdayMessagesView';
-import { FiscalManagerView } from './FiscalManagerView';
-import { StoreSettingsView } from './StoreSettingsView';
+
+const AdminDashboardOverview = dynamic(
+  () => import('./AdminDashboardOverview').then((m) => m.AdminDashboardOverview),
+  { ssr: false }
+);
+const PdvSalesView = dynamic(
+  () => import('./PdvSalesView').then((m) => m.PdvSalesView),
+  { ssr: false }
+);
+const OrdersManagerView = dynamic(
+  () => import('./OrdersManagerView').then((m) => m.OrdersManagerView),
+  { ssr: false }
+);
+const ProductsManagerView = dynamic(
+  () => import('./ProductsManagerView').then((m) => m.ProductsManagerView),
+  { ssr: false }
+);
+const CategoriesManagerView = dynamic(
+  () => import('./CategoriesManagerView').then((m) => m.CategoriesManagerView),
+  { ssr: false }
+);
+const ClientsManagerView = dynamic(
+  () => import('./ClientsManagerView').then((m) => m.ClientsManagerView),
+  { ssr: false }
+);
+const PricingCalculatorView = dynamic(
+  () => import('./PricingCalculatorView').then((m) => m.PricingCalculatorView),
+  { ssr: false }
+);
+const CouponsManagerView = dynamic(
+  () => import('./CouponsManagerView').then((m) => m.CouponsManagerView),
+  { ssr: false }
+);
+const BirthdayMessagesView = dynamic(
+  () => import('./BirthdayMessagesView').then((m) => m.BirthdayMessagesView),
+  { ssr: false }
+);
+const FiscalManagerView = dynamic(
+  () => import('./FiscalManagerView').then((m) => m.FiscalManagerView),
+  { ssr: false }
+);
+const StoreSettingsView = dynamic(
+  () => import('./StoreSettingsView').then((m) => m.StoreSettingsView),
+  { ssr: false }
+);
 import {
   LayoutDashboard,
   ShoppingBag,

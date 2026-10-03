@@ -1036,12 +1036,68 @@
   ],
   "adminAuth": {
     "username": "Recriar",
-    "salt": "8f0b75088a2db47f83dbdca7f86ae699",
-    "passwordHash": "cf40333a28e9d1bea5404b570146b09edb5ee3539c9b4755b66ce3352d627ea9428f30a2e916a81b1c990dd9eec7ab6ec57e19faf0bd6c1b4874fb2f2f7a6d70",
+    "salt": "2965ad8cfabdaaecec02129c735bbae6",
+    "passwordHash": "14fdaa3417ce44b5830becb64e6ffb3278591d93b39d49151e1ca74dca4f4ae6c39f6ef39d941343227d14d7d4a07e1fde55b8f4fb8a365693b999cb64a50ea5",
     "isTemporaryPassword": true,
-    "failedAttempts": 1
+    "failedAttempts": 0
   },
   "auditLogs": [
+    {
+      "id": "log-1790992412732-yzh6g",
+      "action": "LOGIN_SUCESSO",
+      "entity": "Autenticação",
+      "details": "Administrador Recriar autenticado com sucesso.",
+      "timestamp": "2026-10-03T01:53:32.732Z"
+    },
+    {
+      "id": "log-1790992250138-v6kf8",
+      "action": "LOGOUT",
+      "entity": "Autenticação",
+      "details": "Sessão encerrada pelo administrador.",
+      "timestamp": "2026-10-03T01:50:50.138Z"
+    },
+    {
+      "id": "log-1790992242926-txfk4",
+      "action": "LOGIN_SUCESSO",
+      "entity": "Autenticação",
+      "details": "Administrador Recriar autenticado com sucesso.",
+      "timestamp": "2026-10-03T01:50:42.926Z"
+    },
+    {
+      "id": "log-1790991815148-iwkca",
+      "action": "SENHA_REDEFINIDA",
+      "entity": "Autenticação",
+      "details": "Senha redefinida para o padrão do sistema (recriar123).",
+      "timestamp": "2026-10-03T01:43:35.148Z"
+    },
+    {
+      "id": "log-1790991812518-w6wyz",
+      "action": "LOGIN_SUCESSO",
+      "entity": "Autenticação",
+      "details": "Administrador Recriar autenticado com sucesso.",
+      "timestamp": "2026-10-03T01:43:32.518Z"
+    },
+    {
+      "id": "log-1790991808535-s4b7m",
+      "action": "LOGIN_SUCESSO",
+      "entity": "Autenticação",
+      "details": "Administrador Recriar autenticado com sucesso.",
+      "timestamp": "2026-10-03T01:43:28.535Z"
+    },
+    {
+      "id": "log-1790991791162-qmdcf",
+      "action": "LOGIN_FALHOU",
+      "entity": "Autenticação",
+      "details": "Senha incorreta para o usuário Recriar",
+      "timestamp": "2026-10-03T01:43:11.162Z"
+    },
+    {
+      "id": "log-1790991697934-rw9wq",
+      "action": "LOGIN_FALHOU",
+      "entity": "Autenticação",
+      "details": "Senha incorreta para o usuário Recriar",
+      "timestamp": "2026-10-03T01:41:37.934Z"
+    },
     {
       "id": "log-1790736179043-lyq7c",
       "action": "LOGIN_FALHOU",

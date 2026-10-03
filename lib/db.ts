@@ -51,9 +51,9 @@ export function hashPassword(password: string, salt: string): string {
   return crypto.pbkdf2Sync(password, salt, 10000, 64, 'sha256').toString('hex');
 }
 
-// Generate initial salt and hash for temp password "xrecrira"
+// Generate initial salt and hash for temp password "recriar123"
 const INITIAL_SALT = crypto.randomBytes(16).toString('hex');
-const INITIAL_HASH = hashPassword('xrecrira', INITIAL_SALT);
+const INITIAL_HASH = hashPassword('recriar123', INITIAL_SALT);
 
 let memoryDb: AppDatabase | null = null;
 

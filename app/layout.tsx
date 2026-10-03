@@ -19,6 +19,26 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="pt-BR">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.addEventListener('error', function(e) {
+                var msg = (e && e.message) || '';
+                if (msg.indexOf('Loading chunk') !== -1 || msg.indexOf('ChunkLoadError') !== -1) {
+                  var k = 'applet_last_chunk_err_reload';
+                  var now = Date.now();
+                  var last = parseInt(sessionStorage.getItem(k) || '0', 10);
+                  if (now - last > 5000) {
+                    sessionStorage.setItem(k, now.toString());
+                    window.location.reload();
+                  }
+                }
+              });
+            `,
+          }}
+        />
+      </head>
       <body suppressHydrationWarning className="bg-[#FFFDF9] text-[#5C4033] antialiased selection:bg-[#C49A45]/30">
         {children}
       </body>
